@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-glrp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0028-tenant/tkrw-pr712-0075-0028-app/devfile-sample-glrp@sha256:f524aa143aeae71af86c3e4c0067398dfa91423bacba41679633ede0852100c9
         name: my-nodejs
         ports:
         - containerPort: 3001
